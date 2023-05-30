@@ -1,0 +1,197 @@
+/* css syntax */
+
+/* index.html */
+*{
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+body{
+   padding: 1rem;
+}
+
+.bg{
+   background-image: url('https://images.pexels.com/photos/1809340/pexels-photo-1809340.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+   height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   color: blue;
+   padding: 1rem 1rem;
+   cursor: pointer;
+   width: 100%;
+}
+
+.bg h1{
+   background-color: transparent;
+}
+
+h2.h2{
+   text-align: center;
+   padding: 1rem 1rem;
+}
+
+.wrapper{
+   padding: 2rem;
+   margin: 2rem;
+   background-color: #f1f1f1;
+}
+
+.faq{
+   text-align: justify;
+}
+
+details summary{
+   font-style: italic;
+   font-size: large;
+   font-weight: bold;
+}
+details p{
+   margin: 0 auto;
+   width: 100%;
+   background-color: rgb(228, 228, 186);
+   color: fff;
+   cursor: pointer;
+   background-color: aliceblue;
+   word-spacing: 0.5rem;
+   line-height: 2rem;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.wrapper p{
+   color: fff;
+   cursor: pointer;
+   background-color: aliceblue;
+   word-spacing: 0.5rem;
+   line-height: 2rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-variant: small-caps;
+   font-weight: bolder;
+}
+
+#myClass p{
+   color: blueviolet;
+   font-style: italic;
+   border-style: outset;
+   border-color: aqua;
+   border-top-color: yellow;
+   border-left-color:red ;
+   border-right-color: green;
+   padding: 2rem;
+   margin: 2rem;
+   border-radius: 30px;
+}
+
+.mypp{
+   outline-width: 10px;
+   outline-style: groove;
+   outline-color: rgb(255, 0, 234);
+}
+
+input {
+   width: 300px;
+   padding: 0.5rem 1rem;
+   border: none;
+   border-bottom: 1px solid rgb(195, 216, 154);
+   margin: 1rem;
+}
+
+
+pre{
+   background-color: rgb(248, 235, 217);
+   padding: 0.5rem 0.5rem;
+}
+
+.bg h1{
+   font-size: 3rem;
+   /* text-decoration: dashed;
+   text-decoration-line: underline;
+   text-decoration-color: rgba(21, 255, 0, 0.247);
+   text-decoration-thickness: 2rem; */
+   text-decoration: none;
+}
+
+p{
+   text-align: justify;
+   text-indent: 30px;
+   text-transform: capitalize;
+}
+
+img.img{
+   width: 100%;
+   height: 600;
+}
+
+.ul{
+   color: indigo;
+   font-size: 1rem;
+   background-color: bisque;
+   font-style: italic;
+
+   list-style-type: georgian;
+   list-style-position: inside;
+}
+
+aside li{
+   border: 1px solid gray;
+   font-size: large;
+   padding: 1rem;
+   list-style-position: inside;
+}
+
+aside li::marker{
+   color: rgb(255, 0, 0);
+   font-size: 100;
+}
+
+/* activities.html*/
+
+/* styling my table */
+h2{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+table, td, th{
+   border: 1px solid red;
+   margin: 4rem auto 0;
+   border-collapse: collapse;
+   padding: 0.5rem 2rem;
+   /* text-align: center; */
+   /* height: 100px;
+   vertical-align: bottom; */
+   border: none;
+}
+
+th{
+   background-color: black;
+   color: white;
+}
+
+
+.name{
+   color: red;
+   background-color:gold;
+}
+
+tr:nth-child(odd){
+   background-color: gray;
+}
+
+tr:nth-child(even):hover{
+   background-color: rgb(0, 0, 0);
+   color: white;
+   cursor: pointer;
+}
+
+.table-wrapper{
+   overflow-x: auto;
+}
+
+.names{
+   background-color: rgba(0, 0, 0, 0.493);
+   color: white;
+}
